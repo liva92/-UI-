@@ -1,0 +1,49 @@
+/*
+ * @Author: liva
+ * @Date: 2019-07-12 10:30:45
+ * @LastEditors: liva
+ * @LastEditTime: 2019-07-26 08:23:26
+ */
+
+/* css reset */
+@import './reset.css';
+/* 公共样式*/
+@import './common.css';
+/* 字体图标 */
+@import './icon.css';
+
+/* 标题栏样式 */
+@import './header.css';
+/* 内容区样式 */
+@import './content.css';
+/* 导航条样式 */
+@import './navbar.css';
+/* 表单样式 */
+@import './input.css';
+/* 按钮的样式 */
+@import './button.css';
+/* 搜索栏的样式 */
+@import './search.css';
+/* 列表的样式 */
+@import './list.css';
+/* 网格组件的样式 */
+@import './grid.css';
+
+/* 按钮默认样式 */
+.tt-btn {
+  display: block;
+  position: relative;
+  width: 10rem;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 0.7rem;
+  text-align: center;
+  color: #000000;
+  border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  user-select: none;
+}
