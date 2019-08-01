@@ -2,7 +2,7 @@
  * @Author: liva
  * @Date: 2019-07-12 10:30:45
  * @LastEditors: liva
- * @LastEditTime: 2019-07-26 08:23:26
+ * @LastEditTime: 2019-08-01 15:13:21
  */
 
 /* css reset */
@@ -28,6 +28,12 @@
 @import './list.css';
 /* 网格组件的样式 */
 @import './grid.css';
+/* 菜单组件的样式 */
+@import './menu.css';
+/* 模态框组件的样式 */
+@import './modal.css';
+/* 加载提示组件 */
+@import './loading.css';
 
 /* 按钮默认样式 */
 .tt-btn {

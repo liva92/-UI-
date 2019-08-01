@@ -2,7 +2,7 @@
  * @Author: liva
  * @Date: 2019-07-12 11:08:52
  * @LastEditors: liva
- * @LastEditTime: 2019-07-12 11:17:03
+ * @LastEditTime: 2019-08-01 15:29:21
  */
 
 /* 字体图标，依赖font-awesome */
@@ -13,5 +13,21 @@
   text-align: center;
 }
 .fa-code {
-  color: red
+  color: red;
+}
+/* 垂直方向上振动 */
+.fa-vibrate-y {
+  animation: fa-vibrate-y 1.5s infinite ease-in;
+}
+/* 振动轨迹 */
+@keyframes fa-vibrate-y {
+  0% {
+    transform: translateY(-10%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
 }

@@ -2,7 +2,7 @@
  * @Author: liva
  * @Date: 2019-07-12 10:30:56
  * @LastEditors: liva
- * @LastEditTime: 2019-07-24 15:45:13
+ * @LastEditTime: 2019-08-01 14:33:15
  */
 
 /* 屏幕宽度在340px至410px时，基准尺寸使用20px */
@@ -35,7 +35,7 @@ body {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
-.mask {
+.tt-mask {
   position: fixed;
   top: 0;
   bottom: 0;

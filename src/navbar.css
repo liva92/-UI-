@@ -2,11 +2,11 @@
  * @Author: liva
  * @Date: 2019-07-12 11:32:39
  * @LastEditors: liva
- * @LastEditTime: 2019-07-12 14:27:17
+ * @LastEditTime: 2019-08-01 14:38:46
  */
 
 /* 底部导航栏 */
-.navbar {
+.tt-navbar {
   display: flex;
   position: fixed;
   box-sizing: border-box;
@@ -20,21 +20,21 @@
   text-align: center;
 }
 /* 导航项目 */
-.navbar > .navbar-item {
+.tt-navbar > .navbar-item {
   flex: 1;
   color: #808080;
 }
 /* 被选中的样式 */
-.navbar > .navbar-item.active {
+.tt-navbar > .navbar-item.active {
   color: #09bb07;
 }
 /* 导航图标 */
-.navbar > .navbar-item > .icon {
+.tt-navbar > .navbar-item > .icon {
   padding: 0.3rem 0.1rem;
   font-size: 1.1rem;
 }
 /* 导航名称 */
-.navbar > .navbar-item > .name {
+.tt-navbar > .navbar-item > .name {
   display: block;
   font-size: 0.5rem;
 }
