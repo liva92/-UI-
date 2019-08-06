@@ -2,7 +2,7 @@
  * @Author: liva
  * @Date: 2019-07-12 10:30:45
  * @LastEditors: liva
- * @LastEditTime: 2019-08-01 15:13:21
+ * @LastEditTime: 2019-08-06 17:01:10
  */
 
 /* css reset */
@@ -34,6 +34,10 @@
 @import './modal.css';
 /* 加载提示组件 */
 @import './loading.css';
+/* Toast弹出提示组件 */
+@import './toast.css';
+/* actionSheet可选菜单 */
+@import './action-sheet.css';
 
 /* 按钮默认样式 */
 .tt-btn {
