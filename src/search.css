@@ -3,6 +3,7 @@
   max-width: 640px;
   margin: 0 auto;
   background: #f8f8f8;
+  z-index: 2;
 }
 /* 搜索状态中，覆盖内容区 */
 .tt-search.on-focus {
@@ -10,7 +11,6 @@
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
   overflow-y: auto;
 }
 /* 处理有标题栏的情况 */
@@ -19,7 +19,7 @@
 }
 /* 处理有导航栏的情况 */
 .tt-navbar ~ .tt-content .tt-search.on-focus {
-  bottom: 2.5rem;
+  /* bottom: 2.5rem; */
 }
 /* 搜索栏中的表单 */
 .tt-search > .tt-search-form {

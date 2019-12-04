@@ -2,7 +2,7 @@
  * @Author: liva
  * @Date: 2019-07-12 11:32:15
  * @LastEditors: liva
- * @LastEditTime: 2019-08-01 14:40:21
+ * @LastEditTime: 2019-08-23 17:10:04
  */
 
 /* 内容区 */
@@ -30,6 +30,12 @@
   border-top: 1px solid #eee;
   font-size: 14px;
   font-weight: normal;
+}
+/* 标题导航 */
+.tt-content .tt-panel-title > .tt-panel-link {
+  float: right;
+  margin-right: 1rem;
+  color: #aaa;
 }
 /* Panel 内容区 */
 .tt-content .tt-panel-body {
