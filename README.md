@@ -27,7 +27,7 @@ import 'app-beauty';
 ### 项目职责
 
 1. 实现移动端常用的组件，比如toast,search,loding,action-sheet，modal等组件
-2. 实现npm包发布 ,下载执行npm i ui-mobile-liva 即可
+2. 实现npm包发布 ,下载执行npm i app-beauty 即可
 
 ### 变更记录
 
