@@ -10,7 +10,7 @@
   <body>
     <div class="tt-content">
       <!-- 带suggest的搜索框 -->
-      <div class="tt-search on-focus">
+      <div class="tt-search">
         <!-- 搜索框 -->
         <form class="tt-search-form" action="#">
           <div class="tt-search-input-wrap">
@@ -19,7 +19,6 @@
               type="text"
               class="tt-search-input"
               placeholder="搜索"
-              autocomplete="off"
               required
             />
             <i class="fa fa-close tt-search-clear"></i>
@@ -37,5 +36,22 @@
       </div>
       <p class="content">内容区</p>
     </div>
+    <script>
+      window.onload = function () {
+        let ttSearch = document.querySelector('.tt-search');
+        // 输入框被选中，进入搜索模式
+        document
+          .querySelector('.tt-search-input')
+          .addEventListener('focus', function () {
+            ttSearch.classList.add('on-focus');
+          });
+        // 点击取消，返回正常模式
+        document
+          .querySelector('.tt-search-cancel')
+          .addEventListener('click', function () {
+            ttSearch.classList.remove('on-focus');
+          });
+      };
+    </script>
   </body>
 </html>

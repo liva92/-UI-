@@ -28,7 +28,6 @@ html {
 
 /* body默认样式 */
 body {
-  max-width: 640px;
   height: 100%;
   margin: 0 auto;
   background: #f8f8f8;
